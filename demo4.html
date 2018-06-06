@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .parent {
+            position: relative;
+            background-color: rgb(243, 225, 225);
+            height: 100px;
+            width: 240px;
+        }
+
+        .child {
+            text-align: center;
+            width: 100px;
+            background-color: cornflowerblue;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);  
+            /* translate的参数：left（x 坐标） 和 top（y 坐标） 位置参数 ，如果是百分比，会以本身的长宽做参考*/
+        }
+    </style>
+</head>
+
+<body>
+
+    <body>
+        <div class="parent">
+            <div class="child">Demo</div>
+        </div>
+    </body>
+</body>
+
+</html>
